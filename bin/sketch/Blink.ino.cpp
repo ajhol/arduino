@@ -1,19 +1,19 @@
 #include <Arduino.h>
-#line 1 "f:\\arduinoForVsCode\\Blink\\Blink.ino"
+#line 1 "f:\\arduinoForVsCode\\Blink\\arduino\\Blink.ino"
 #define SW1 11
 #define SW2 13
-#define D1 12
+#define LED1 12
 #define D2 10 
 void turnRight(void);
 void turnLeft(void);
 void stop(void);
 int sw1;
 int sw2;
-#line 10 "f:\\arduinoForVsCode\\Blink\\Blink.ino"
+#line 10 "f:\\arduinoForVsCode\\Blink\\arduino\\Blink.ino"
 void setup();
-#line 18 "f:\\arduinoForVsCode\\Blink\\Blink.ino"
+#line 18 "f:\\arduinoForVsCode\\Blink\\arduino\\Blink.ino"
 void loop();
-#line 10 "f:\\arduinoForVsCode\\Blink\\Blink.ino"
+#line 10 "f:\\arduinoForVsCode\\Blink\\arduino\\Blink.ino"
 void setup() {
   pinMode(SW1,INPUT);
   pinMode(SW2,INPUT);
@@ -51,8 +51,8 @@ void turnLeft(void){
  }
  
  void stop(void){
-  digitalWrite(D1,LOW);
-   digitalWrite(D2,LOW);
+  digitalWrite(D1,HIGH);
+   digitalWrite(D2,HIGH);
  
   
   }

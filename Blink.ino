@@ -1,6 +1,6 @@
 #define SW1 11
 #define SW2 13
-#define D1 12
+#define LED1 12
 #define D2 10 
 void turnRight(void);
 void turnLeft(void);
