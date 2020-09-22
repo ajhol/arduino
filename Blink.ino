@@ -44,8 +44,8 @@ void turnLeft(void){
  }
  
  void stop(void){
-  digitalWrite(D1,LOW);
-   digitalWrite(D2,LOW);//lskdjflk
+  digitalWrite(D1,HIGH);
+   digitalWrite(D2,HIGH);
  
   
   }
