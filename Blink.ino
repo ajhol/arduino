@@ -1,12 +1,12 @@
 #define SW1 11
 #define SW2 13
-#define LED1 12
+#define D1 12
 #define D2 10 
 void turnRight(void);
 void turnLeft(void);
 void stop(void);
-int sw1;
-int sw2;
+int sw_1;
+int sw_2;
 void setup() {
   pinMode(SW1,INPUT);
   pinMode(SW2,INPUT);

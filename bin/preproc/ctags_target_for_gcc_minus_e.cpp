@@ -11,7 +11,7 @@ int sw2;
 void setup() {
   pinMode(11,0x0);
   pinMode(13,0x0);
-  pinMode(D1,0x1);
+  pinMode(12,0x1);
   pinMode(10,0x1);
 
 }
@@ -33,19 +33,19 @@ void loop() {
 }
 
 void turnLeft(void){
-    digitalWrite(D1,0x1);
+    digitalWrite(12,0x1);
     digitalWrite(10,0x0);
 
  }
 
  void turnRight(void){
-   digitalWrite(D1,0x0);
+   digitalWrite(12,0x0);
    digitalWrite(10,0x1);
 
  }
 
  void stop(void){
-  digitalWrite(D1,0x1);
+  digitalWrite(12,0x1);
    digitalWrite(10,0x1);
 
 
