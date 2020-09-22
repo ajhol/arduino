@@ -1,0 +1,6 @@
+{
+    "output": ".\\bin",
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328",
+    "sketch": "Blink.ino"
+}
