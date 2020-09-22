@@ -5,8 +5,8 @@
 void turnRight(void);
 void turnLeft(void);
 void stop(void);
-int sw_1;
-int sw_2;
+int sw1;
+int sw2;
 void setup() {
   pinMode(SW1,INPUT);
   pinMode(SW2,INPUT);
